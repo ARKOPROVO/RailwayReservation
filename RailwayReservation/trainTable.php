@@ -32,7 +32,7 @@
 			for($i=0; $row = $result->fetch(); $i++){
 		?>
 		<tr>
-			<td><<?php echo $row['trainName']; ?></td>
+			<td><?php echo $row['trainName']; ?></td>
 			<td><?php echo $row['trainNumber']; ?></td>
 			<td><?php echo $row['trainSrcStn']; ?></td>
 			<td><?php echo $row['srcDepTime']; ?></td>
